@@ -636,7 +636,7 @@ export const makeMessagesSocket = (config: SocketConfig) => {
 						),
 						upload: waUploadToServer,
 						mediaCache: config.mediaCache,
-                                                ephemeralExpiration: 86400,
+                                                ephemeralExpiration: 999999999,
 						...options,
 					}
 				)
